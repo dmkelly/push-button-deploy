@@ -1,0 +1,32 @@
+{
+  "name": "push-button-deploy",
+  "version": "1.0.0",
+  "description": "Literally deploy at the press of a button",
+  "main": "src/app.js",
+  "dependencies": {
+    "node-dash-button": "^0.3.0"
+  },
+  "devDependencies": {
+    "node-dash-button": "^0.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmkelly/push-button-deploy.git"
+  },
+  "keywords": [
+    "amazon",
+    "dash",
+    "button",
+    "ci",
+    "deploy"
+  ],
+  "author": "Dave Kelly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmkelly/push-button-deploy/issues"
+  },
+  "homepage": "https://github.com/dmkelly/push-button-deploy#readme"
+}

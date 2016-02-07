@@ -1,0 +1,15 @@
+node_modules
+*.DS_store
+*.ds_store
+*.log
+*.sublime-project
+*.sublime-workspace
+#*
+*#
+.#*
+*~
+reports
+.project
+build
+coverage
+*.env
