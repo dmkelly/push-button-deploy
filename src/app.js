@@ -22,7 +22,7 @@ try {
 dash.on('detected', function() {
   console.log('Button press detected');
   console.log('Building ' + config.jenkins.job + '...');
-  jenkins.build(function(err, result) {
+  jenkins.build(function(err) {
     if (err) {
       return console.error(err.message, err.stack);
     }

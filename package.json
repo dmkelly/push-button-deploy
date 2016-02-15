@@ -10,6 +10,7 @@
   },
   "scripts": {
     "setup": "findbutton",
+    "pretest": "jshint src",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/app"
   },
@@ -29,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/dmkelly/push-button-deploy/issues"
   },
-  "homepage": "https://github.com/dmkelly/push-button-deploy#readme"
+  "homepage": "https://github.com/dmkelly/push-button-deploy#readme",
+  "devDependencies": {
+    "jshint": "^2.9.1"
+  }
 }
