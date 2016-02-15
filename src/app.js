@@ -1,6 +1,7 @@
 'use strict';
 
 var config = require('./config');
+var jenkins = require('./jenkins');
 var hwAddr = config.button.hwAddr;
 
 if (!hwAddr) {
@@ -20,6 +21,13 @@ try {
 
 dash.on('detected', function() {
   console.log('Button press detected');
+  console.log('Building ' + config.jenkins.job + '...');
+  jenkins.build(function(err, result) {
+    if (err) {
+      return console.error(err.message, err.stack);
+    }
+    console.log('Build complete');
+  });
 });
 
 console.log('\nListening for device button press...');

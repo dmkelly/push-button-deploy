@@ -5,6 +5,7 @@
   "main": "src/app.js",
   "dependencies": {
     "dotenv": "^2.0.0",
+    "jenkins-api": "^0.2.8",
     "node-dash-button": "^0.3.0"
   },
   "scripts": {
