@@ -19,3 +19,15 @@ This app needs to be provided with the hardware address of the button discovered
 ```bash
 HW_ADDR=$dash_mac_address node src/app.js
 ```
+
+**Example .env file**
+
+```bash
+# Dash button
+HW_ADDR=FF:FF:FF:FF:FF:FF
+
+# Jenkins
+# See https://github.com/jansepar/node-jenkins-api#setup
+JENKINS_CONNECTION_STRING=https://username:password@ci.example.com/jenkins
+JENKINS_JOB=ci-job
+```
