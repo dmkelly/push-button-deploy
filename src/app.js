@@ -1,6 +1,7 @@
 'use strict';
 
-var hwAddr = process.env.HW_ADDR;
+var config = require('./config');
+var hwAddr = config.button.hwAddr;
 
 if (!hwAddr) {
   console.log('Specify the hardware address of your Dash Button with HW_ADDR env variable');

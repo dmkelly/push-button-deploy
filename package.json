@@ -4,11 +4,13 @@
   "description": "Literally deploy at the press of a button",
   "main": "src/app.js",
   "dependencies": {
+    "dotenv": "^2.0.0",
     "node-dash-button": "^0.3.0"
   },
   "scripts": {
     "setup": "findbutton",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app"
   },
   "repository": {
     "type": "git",
