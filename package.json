@@ -6,10 +6,8 @@
   "dependencies": {
     "node-dash-button": "^0.3.0"
   },
-  "devDependencies": {
-    "node-dash-button": "^0.3.0"
-  },
   "scripts": {
+    "setup": "findbutton",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
